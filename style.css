@@ -9,7 +9,7 @@ body{
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
     column-gap: 2rem;
-    height: 40vh;
+    height:350px;
 }
 .img-1 h3{
     text-align: center;
@@ -28,7 +28,7 @@ body{
 }
 .img-1 button{
     position:absolute;
-    top:11rem;
+    top:12rem;
     left:6rem;
     background-color: transparent;
     font-size:1.2rem;
@@ -37,7 +37,7 @@ body{
 }
 .img-2 button{
     position:absolute;
-    top:11rem;
+    top:12rem;
     left:6rem;
     background-color: transparent;
     font-size:1.2rem;
@@ -46,7 +46,7 @@ body{
 }
 .img-3 button{
     position:absolute;
-    top:11rem;
+    top:12rem;
     left:6rem;
     background-color: transparent;
     font-size:1.2rem;
@@ -55,7 +55,7 @@ body{
 }
 .img-1{
     position:relative;
-    height:38vh;
+    height:230px;
     background-image: url(images/collection-1.jpg);
     background-position: center;
     background-size: cover;
@@ -64,7 +64,7 @@ body{
 }
 .img-2{
     position:relative;
-    height:38vh;
+    height:230px;
     background-image: url(images/collection-2.jpg);
     background-position: center;
     background-size: cover;
@@ -73,25 +73,25 @@ body{
 }
 .img-3{
     position:relative;
-    height:38vh;
+    height:230px;
     background-image: url(images/collection-3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin:1rem;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:731px){
     .img-1 button{
-        top:10rem;
-        left:0;
+        top:12rem;
+        left:1rem;
     }
     .img-2 button{
-        top:10rem;
-        left:0;
+        top:12rem;
+        left:1rem;
     }
     .img-3 button{
-        top:10rem;
-        left:0;
+        top:12rem;
+        left:1rem;
     }
 }
 
